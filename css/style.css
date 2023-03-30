@@ -1,0 +1,40 @@
+@import url(../assets/styles/cabeçalho.css);
+@import url(../assets/styles/menu-lateral.css);
+@import url(../assets/styles/principal.css);
+@import url(../assets/styles/conteudo.css);
+@import url(../assets/styles/sobre.css);
+@import url(../assets/styles/curso.css);
+@import url(../assets/styles/login.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'icones';
+    src: url(../assets/font/icones.ttf);
+
+}
+
+:root{
+    --Black: #000000;
+    --Preto: #1D232A;
+    --Preto-escuro: #15191C;
+    --Cinza: #2C343A;
+    --Branco: #FFFFFF;
+    --Cinza-claro: #95999C;
+    --Links: #0480DC;
+    --Fonte: 'Inter',sans-serif, 'icones';
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--Preto-escuro);
+    font-family: var(--Fonte);
+    color: var(--Branco);
+}
+
+

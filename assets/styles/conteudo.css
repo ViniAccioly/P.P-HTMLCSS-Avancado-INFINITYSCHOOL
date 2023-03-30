@@ -1,0 +1,50 @@
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em;
+    color: #093366;
+    background-color: #fff;
+}
+
+.conteudo_titulo{
+    font-weight: 900;
+    font-size: 22px;
+    margin-bottom: 0.5em;
+}
+
+.conteudo_subtitulo{
+    margin-bottom: 2em;
+}
+
+.conteudo_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+}
+
+.conteudo_navegue{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.titulo_navegue{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.paragrafo_navegue{
+    line-height: 1.4em;
+}
+
+strong{
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 1124px){
+.conteudo_container{
+    flex-direction: column;
+}
+    
+}

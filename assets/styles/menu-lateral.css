@@ -1,0 +1,86 @@
+.menu-lateral{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #072347;
+    width: 70vw;
+    position: absolute;
+    left: -100vw;
+    transition: 0.25s;
+    z-index: 1;
+    
+}
+
+
+@media screen and (min-width: 540px){
+    .menu-lateral{
+        width: 35%;
+    }
+}
+   
+
+@media screen and (min-width: 720px){
+    .menu-lateral{
+        width: 25%;
+    }
+}
+   
+
+@media screen and (min-width: 1124px){
+    .menu-lateral{
+        width: 25%;
+    }
+}
+    
+
+.menu-lateral--ativo{
+    left: 0;
+    transition: .25s;
+}
+
+.menu-lateral_logo{
+    width:60px;
+    align-self: center;
+    padding: 16px;
+}
+
+.menu-lateral_link{
+    display: flex;
+    height: 64px;
+    color: var(--Cinza-escuro);
+    padding-left: 64px;
+    align-items: center;
+    
+}
+
+
+.menu-lateral_link::before{
+    content: "";
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    position: absolute;
+    left: 24px;
+}
+
+.menu-lateral_link--ativo {
+    color: #FFFFFF;
+    padding-left: 56px;
+    border-left: 8px solid #FFFFFF;
+}
+
+.menu-lateral_inscricao::before{
+    content:"\e909";
+}
+
+.menu-lateral_login::before  {
+    content:"\e90d";
+}
+
+.menu-lateral_home::before   {
+    content:"\e902";
+}
+
+.menu-lateral_sobrenos::before {
+    content:"\e903";
+}
